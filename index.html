@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Simple Site</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">MySite</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-badge">Modern • Lightweight • Fast</span>
+        <h1>Welcome to My Simple Website</h1>
+        <p>This is a polished frontend-only website built with plain HTML, CSS, and JavaScript.</p>
+        <div class="hero-actions">
+          <button id="hello-btn">Say Hello</button>
+          <a href="about.html" class="secondary-link">Learn More</a>
+        </div>
+        <p id="hello-msg"></p>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="card">
+        <h2>Fast</h2>
+        <p>No frameworks, no build step — loads instantly.</p>
+      </div>
+      <div class="card">
+        <h2>Simple</h2>
+        <p>Just three files: HTML, CSS, and JS.</p>
+      </div>
+      <div class="card">
+        <h2>Flexible</h2>
+        <p>Easy to deploy anywhere — Netlify, GitHub Pages, S3, etc.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 MySite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
